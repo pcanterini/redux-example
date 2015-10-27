@@ -19,6 +19,14 @@ npm start
 open http://localhost:3000
 ```
 
+### Linting
+Install dependencies.
+
+```
+npm install -g eslint eslint-plugin-react
+npm run lint
+```
+
 ### Why do we need Redux?
 Let's think about an ordinary React app. There are components, states, props and API actions. A component calls another components and if you trigger an UI state, view is updated and etc... Finally, the app becomes complex and you cannot control it.
 
